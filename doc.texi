@@ -1,0 +1,25 @@
+\input texinfo
+
+@ifnottex
+@paragraphindent 0
+@end ifnottex
+
+The program was be developed in C++ language of C++17 standard on QT.
+The program code was be located in the src folder.
+Code follow google style and all classes implemented within the s21 namespace.
+Was prepared full coverage of expression calculation modules with unit-tests using the GTest library.
+The program can be built with Makefile which contains standard set of targets for GNU-programs: all, install, uninstall, clean, dvi, dist, tests.
+The program was be implemented using the MVC pattern, and also
+there hasn't business logic code in the view code, 
+there hasn't interface code in the controller and the model 
+and controllers is thin. 
+You can provide the input of numbers in exponential notation.
+The calculation start after you complete entering the calculating expression and press the = symbol.
+Calculating arbitrary bracketed arithmetic expressions in infix notation with substitution of the value of the variable x as a number.
+You can plot a graph of a function given by an expression in infix notation with the variable x (with coordinate axes, mark of the used scale and an adaptive grid).
+You can be able to enter up to 255 characters.
+Bracketed arithmetic expressions in infix notation support the following arithmetic operations and mathematical functions:
++, -, (), *, /, ^, mod, sin, cos, tan, asin, acos, atan, sqrt, ln, log.
+Support credit calculator.
+
+@bye
